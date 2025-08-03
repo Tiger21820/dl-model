@@ -2,7 +2,7 @@
 
 # Dragalia Lost Model Viewer
 
-A web app to view 3D models from the game Dragalia Lost4
+A web app to view 3D models from the game Dragalia Lost
 
 ### Note: This will stay up for as long as possible
 
