@@ -14,26 +14,26 @@
     },
     "dependencies": {
         "@emotion/react": "11.14.0",
-        "@emotion/styled": "11.14.0",
-        "@mui/icons-material": "7.1.1",
-        "@mui/material": "7.1.1",
+        "@emotion/styled": "11.14.1",
+        "@mui/icons-material": "7.2.0",
+        "@mui/material": "7.2.0",
         "fflate": "0.8.2",
         "file-saver": "2.0.5",
         "fscreen": "1.2.0",
         "idb": "8.0.3",
         "immer": "10.1.1",
         "nanoid": "5.1.5",
-        "preact": "10.26.9",
+        "preact": "10.27.0",
         "react-beautiful-dnd": "13.1.1",
         "react-color": "2.19.3",
         "stats.js": "0.17.0",
-        "three": "0.177.0",
+        "three": "0.179.0",
         "upng-js": "2.1.0",
-        "zustand": "5.0.5"
+        "zustand": "5.0.7"
     },
     "devDependencies": {
-        "@preact/preset-vite": "2.10.1",
+        "@preact/preset-vite": "2.10.2",
         "gh-pages": "6.1.1",
-        "vite": "6.3.5"
+        "vite": "7.0.6"
     }
 }
