@@ -1,18 +1,21 @@
 import { defineConfig } from "vite";
 import preact from "@preact/preset-vite";
+import glsl from "vite-plugin-glsl";
 import path from "path";
+
+const rootDir = import.meta.dirname;
 
 // https://vitejs.dev/config/
 /** @type {import('vite').UserConfig} */
 export default defineConfig({
   base: "/dl-model/",
-  plugins: [preact()],
+  plugins: [preact(), glsl()],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
-      data: path.resolve(__dirname, "./src/data"),
-      hook: path.resolve(__dirname, "./src/SceneController/hook"),
-      components: path.resolve(__dirname, "./src/SceneController/components"),
+      "@": path.resolve(rootDir, "./src"),
+      data: path.resolve(rootDir, "./src/data"),
+      hook: path.resolve(rootDir, "./src/SceneController/hook"),
+      components: path.resolve(rootDir, "./src/SceneController/components"),
       react: "preact/compat",
       "react-dom": "preact/compat",
     },
